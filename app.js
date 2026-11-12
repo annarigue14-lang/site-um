@@ -5,7 +5,7 @@ document.querySelector('#startWords').onclick=()=>{open('<div class="eyebrow">DE
 document.querySelector('#openLetter').onclick=()=>{open('<div class="eyebrow">UMA CARTINHA PARA VOCÊ</div><h2>Meu amor,</h2><p class="letter-text">Se eu pudesse guardar as minhas coisas favoritas em um lugar, ele teria o seu sorriso, o seu abraço e todos os momentos em que a gente simplesmente está junto.</p><p class="letter-text">Esse cantinho é um jeito de dizer que você faz os meus dias mais bonitos. E que, entre tantas coisas que ainda quero viver, as melhores são aquelas que eu imagino com você.</p><p class="letter-text">Que a gente continue colecionando risadas, inventando planos e encontrando felicidade nas pequenas coisas.</p><p class="letter-text">Com todo o meu carinho,<br><em>alguém que ama ter você por perto. ♡</em></p>');celebrate()};document.querySelectorAll('.memory').forEach(b=>b.onclick=()=>open(`<div class="eyebrow">O NOSSO ÁLBUM</div><h2>${b.dataset.title}</h2><img class="album-full-photo" src="${b.dataset.src}" alt="${b.dataset.title}"><p>Meu lugar favorito é onde você está. ♡</p>`));
 const puzzlePhotos = [
  {src:'foto-espelho.png', label:'Meu sorriso favorito', ratio:928/1694},
- {src:'foto-por-do-sol.jpg', label:'Você e o pôr do sol', ratio:1080/1888},
+ {src:'foto-por-do-sol.jpg', label:'Eu e o pôr do sol', ratio:1080/1888},
  {src:'foto-gamer.jpg', label:'Minha dupla favorita', ratio:1080/1921},
  {src:'foto-carinho.jpg', label:'O seu jeitinho', ratio:899/1599},
  {src:'foto-divertida.webp', label:'Nossas melhores risadas', ratio:444/789}
