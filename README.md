@@ -50,3 +50,10 @@ Para substituir uma foto, mantenha o nome e o formato do arquivo. Se mudar as pr
 Todos os caminhos são relativos e funcionam em repositórios com qualquer nome. Não há dependência da hospedagem do ChatGPT. As alterações no GitHub Pages não atualizam o link antigo do ChatGPT.
 
 O progresso é individual por navegador, não há contas nem sincronização entre dispositivos. O repositório e a ativação do Pages precisam ser feitos na sua conta; este pacote já contém o site pronto.
+
+## Atualização: sorriso e música
+
+O cartão “Meu sorriso preferido” usa `foto-sorriso.png`, também disponível no quebra-cabeça.
+O botão “Ouvir nossa música” abre o player do vídeo escolhido no YouTube. É necessário acesso à internet; se o navegador não iniciar o som, toque em Play no player. Pausa e volume ficam nos controles do YouTube. Fechar o painel para a reprodução. O vídeo fica em repetição quando permitido pelo YouTube. A disponibilidade depende de o vídeo permitir reprodução incorporada; há um link para abrir no YouTube caso não permita.
+
+Para atualizar uma versão já publicada, envie `index.html`, `app.js`, `style.css` e `foto-sorriso.png` na raiz do repositório e confirme as alterações.
